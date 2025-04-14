@@ -118,3 +118,4 @@ Congratulations, you’ve built the base game! It might be rough and lack featur
 
 ## Vibe Coding Game Jams
 1. [2025 Vibe Coding Game Jam by @levelsio and sponsored by Bolt.new + Coderabbit AI + Lambda Labs](https://jam.pieter.com/)
+   1. Report: [Vibe Coding: A Creative Surge or a Technical Debt Trap? | by Ben Fairbank | Apr, 2025 | Medium](https://medium.com/@bennydoda83/vibe-coding-a-creative-surge-or-a-technical-debt-trap-8c6932675e6b)
