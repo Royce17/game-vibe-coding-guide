@@ -62,12 +62,12 @@
 
 ### 确保一切清晰
 - 在 Cursor 中选择 **Claude Sonnet 3.7 Thinking**。  
-- 提示：阅读 `/memory-bank` 中的所有文档，`implementation-plan.md` 是否清晰？你有什么问题可以让它对你来说 100% 清晰？  
-- 它通常会问 9-10 个问题，回答这些问题并提示它编辑 `implementation-plan.md`，使其更完善。
+- 提示词：阅读 `/memory-bank` 中的所有文档，`implementation-plan.md` 是否清晰？你有什么问题可以让它对你来说 100% 清晰？  
+- 它通常会问 9-10 个问题，回答这些问题并提示词它编辑 `implementation-plan.md`，使其更完善。
 
-### 第一个实施提示
+### 第一个实施提示词
 - 在 Cursor 中选择 **Claude Sonnet 3.7 Thinking**。  
-- 提示：阅读 `/memory-bank` 中的所有文档，并执行实施计划的第 1 步。我将运行测试。在我验证测试之前，不要开始第 2 步。一旦我验证了它们，打开 `progress.md` 并记录你为未来开发者所做的工作。然后将任何架构见解添加到 `architecture.md`，以解释每个文件的作用。
+- 提示词：阅读 `/memory-bank` 中的所有文档，并执行实施计划的第 1 步。我将运行测试。在我验证测试之前，不要开始第 2 步。一旦我验证了它们，打开 `progress.md` 并记录你为未来开发者所做的工作。然后将任何架构见解添加到 `architecture.md`，以解释每个文件的作用。
 
 - **极致 Vibe：** 安装 [Superwhisper](https://superwhisper.com)，以便与 Claude 进行随意对话，而不是打字。  
 
@@ -75,7 +75,7 @@
 - 完成第 1 步后：  
 - 将更改提交到 Git（如果不熟悉，请向 Grok 3 寻求帮助）。  
 - 开始一个新的 composer（`Cmd + N`，`Cmd + I`）。  
-- 提示：现在浏览记忆库中的所有文件，阅读 `progress.md` 以了解之前的工作，并继续实施计划的第 2 步。在我验证测试之前，不要开始第 3 步。  
+- 提示词：现在浏览记忆库中的所有文件，阅读 `progress.md` 以了解之前的工作，并继续实施计划的第 2 步。在我验证测试之前，不要开始第 3 步。  
 - 重复此过程，直到完成整个 `implementation-plan.md`。
 
 ---
@@ -89,28 +89,28 @@
 ---
 
 ## 修复错误和卡住问题
-- 如果提示失败或破坏了游戏：  
-- 点击 Cursor 中的“恢复”，并完善你的提示，直到它有效。  
+- 如果提示词失败或破坏了游戏：  
+- 点击 Cursor 中的“恢复”，并完善你的提示词，直到它有效。  
 - 对于错误：  
 - **如果是 JavaScript：** 打开控制台（`F12`），复制错误并粘贴到 Cursor 中——或者为视觉问题提供截图。  
 - **懒人选项：** 安装 [BrowserTools](https://browsertools.agentdesk.ai/installation)，跳过手动复制/截图。  
 - 如果卡住：  
-- 恢复到你最后的 Git 提交（`git reset`），并使用新提示重试。  
+- 恢复到你最后的 Git 提交（`git reset`），并使用新提示词重试。  
 - 如果*真的*卡住：  
 - 使用 [RepoPrompt](https://repoprompt.com/) 并向 **Grok 3 Thinking** 寻求帮助。  
 
 ---
 
-## 其他提示
-- **小编辑：** 使用 Claude Sonnet 3.5。  
+## 其他提示词
+- **微小的改动：** 使用 Claude Sonnet 3.5。  
 - **优秀的文案：** 使用 GPT-4.5。  
-- **更好的提示输出：** 添加“尽可能长时间思考以确保正确，我不着急。重要的是你要完全按照我的要求执行。如果我不够精确，请向我提问。”
+- **更好的提示词输出：** 添加“尽可能长时间思考以确保正确，我不着急。重要的是你要完全按照我的要求执行。如果我不够精确，请向我提问。”
 
 ---
 
 ## 常见问题
-**问：你的飞机很棒，但我无法通过一个提示复制它！**  
-**答：** 这不是一个提示——而是大约 30 个提示，由一个 `plane-implementation.md` 文件指导。使用明确、具体的提示，例如“在机翼上切出空间用于副翼”，而不是模糊的提示，例如“制作一架飞机”。
+**问：你的飞机很棒，但我无法通过一个提示词复制它！**  
+**答：** 这不是一个提示词——而是大约 30 个提示词，由一个 `plane-implementation.md` 文件指导。使用明确、具体的提示词，例如“在机翼上切出空间用于副翼”，而不是模糊的提示词，例如“制作一架飞机”。
 
 **问：我不知道如何为我的多人游戏设置服务器**  
 **答：** 问 Grok 3。
@@ -120,6 +120,7 @@
 ## Vibe Coding Game Jams
 1. [2025 Vibe Coding Game Jam，由 @levelsio 主办，Bolt.new + Coderabbit AI + Lambda Labs 赞助](https://jam.pieter.com/)  
    1. 报道：[Vibe 编程：创意激增还是技术债务陷阱？| 作者：Ben Fairbank | 2025 年 4 月 | Medium](https://medium.com/@bennydoda83/vibe-coding-a-creative-surge-or-a-technical-debt-trap-8c6932675e6b)
+2. [Orange Vibe Jam](https://www.orangeweb3.com/news/orange-vibe-coding-hackathon)
 
 ---
 
