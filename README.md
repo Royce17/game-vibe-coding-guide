@@ -1,3 +1,5 @@
+[查看中文版](./README_zh_cn.md) | [View in English](./README.md)
+
 # Ultimate Guide to Vibe Coding V1.0
 **Author:** [Nicolas Zullo, https://x.com/NicolasZu](https://x.com/NicolasZu)  
 **Date:** March 12, 2025  
