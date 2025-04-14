@@ -115,3 +115,6 @@ Congratulations, you’ve built the base game! It might be rough and lack featur
 **A:** Ask Grok 3.
 
 ---
+
+## Links
+[2025 Vibe Coding Game Jam by @levelsio and sponsored by Bolt.new + Coderabbit AI + Lambda Labs](https://jam.pieter.com/)
